@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Of Ghana Department of Computer Science</title>
+    <style>
+        .heading-h2{
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            color: #1e376b;
+            margin: 0;
+        }
+        .heading-h3{
+            font-size: xx-large;
+            text-align: center;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #1e376b;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+            font-style: italic;
+        }
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            text-align: center;
+        }
+        .mySlides {
+            display: none;
+        }
+       .text {
+            color: #1e376b;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+        .numbertext {
+            color: #000000;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #b1a7a7;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .active, .dot:hover {
+            background-color: #0f0e0e;
+        }
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <a href="https://www.ug.edu.gh" target="_blank"><img src="PICS/yyyyy.jpeg" width="100" height="-200" ></a>
+        <h2 class="heading-h2">DEPARTMENT OF COMPUTER SCIENCE</h2>
+    </header>
+    <div class="navbar">
+        <a href=http://127.0.0.1:5500/undergrad.html target="_blank">Undergraduate Programmes</a>
+        <a href=https://dcs.ug.edu.gh/short-courses target="_blank">Short Courses</a>
+        <a href=https://dcs.ug.edu.gh/masters target="_blank">Graduate Programmes</a>
+        <a href=https://dcs.ug.edu.gh/research-labs target="_blank">Research Groups</a>
+        <a href=https://dcs.ug.edu.gh target="_blank">Faculty</a>
+        <a href=https://dcs.ug.edu.gh/about target="_blank">About</a>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="PICS/2.jpg" style="width:70%">
+          <div class="text">Our Intructors Have Years Of Experience</div>
+        </div>   
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="PICS/3.jpg" style="width:70%">
+          <div class="text">YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</div>
+        </div> 
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="PICS/4.jpeg" style="width:70%">
+          <div class="text">Building Our Future</div>
+        </div>  
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="PICS/about-img2.jpeg" style="width:70%">
+            <div class="text">Insight Into Undergraduate Programmes</div>
+        </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+    <div class="container">
+        <h3 class="heading-h3" >WELCOME</h3>
+        <p>This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances. Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.</p>
+        <p>The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team. The course also provides the platform for further study or research through exposure to established and emerging technologies and methods, and to active fields of research in Computer Science.</p>
+        <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major and Major-Minor as well as Bachelor of Science in Information Technology.</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 University Of Ghana DEPARTMENT OF COMPUTER SCIENCE . All rights reserved.</p>
+    </footer>
+</body>
+
+
+
+<script>
+   var slideIndex = 0;
+    showSlides();
+     function showSlides() {
+     var i;
+     var slides = document.getElementsByClassName("mySlides");
+     for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+     }
+     slideIndex++;
+     if (slideIndex > slides.length) {slideIndex = 1}    
+     slides[slideIndex-1].style.display = "block";  
+     setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+</html>
