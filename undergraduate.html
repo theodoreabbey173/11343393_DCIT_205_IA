@@ -72,6 +72,81 @@
             font-family: 'Times New Roman', Times, serif;
             margin: 1%;
          }
+         .undergraduate-cs-courses{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            padding-top: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 800px; 
+         }
+ 
+         .level{
+            width: 100%;
+            height: 70%;
+            background-color: none;
+            color: #333;
+            text-align: center;
+            line-height: 40px;
+            transition: height 0.5s ease;
+            overflow: scroll; 
+            border-top: 8px solid rgb(12, 36, 247);
+            box-shadow: 1px 2px 20px rgb(34, 18, 18);
+            cursor: pointer;
+            font-family: sans-serif;
+         }
+         .fixed-content {
+            position: relative;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 20px;
+         }
+         .courses-container{
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+         }
+         .first-semester{
+            display: grid;
+            grid-template-rows: 30px 1fr;
+         }
+         .first-semester b{
+            font-size: 15px;
+            text-align: center;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0);
+         }
+ 
+         .semester-courses{
+            display: grid;
+            grid-template-columns: 70px 1fr;
+            border-top: 1px solid rgb(0, 0, 0);
+         }
+         .codes-list{
+            list-style-type: none;
+            font-size: 13px;
+            position: relative;
+            left: -35px;
+            font-family: sans-serif;
+            color: black;
+         }
+         .course-titles{
+            text-align: left;
+         }
+ 
+         .course-titles ul{
+            list-style-type: none;
+            font-size: 14px;
+            position: relative;
+            left: -30px;
+            font-family: sans-serif;
+            color: black;
+         }
+         .level.expanded {
+            height: auto; 
+         }
+        
     </style>
 
 </head>
@@ -96,6 +171,253 @@
      <p class="paragraph_1">Computing is everywhere in modern life, whether it be as mundane as checking friends on a social network or as sophisticated as weather forecasting. More fundamentally, computational thinking has contributed to a broad spectrum of problems, from music composition to drug design.The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>     
      <p>The computer science department at University of Ghana offers undergraduate courses in the core areas of computer science and in an array of application and interdisciplinary areas. Because computational thinking is so important, we want to provide every University of Ghana undergraduate with at least one course in computer science.</p>
      <p>Another important aspect of the curriculum is independent work. Each student does at least one design or research project advised by a member of the faculty. This gives students the opportunity to engage in cutting-edge research or entrepreneurial product design. Many projects are interdisciplinary. For students who would like to study computer science in earnest, but secondary to another discipline, we also offer the Certificate Program in Applications of Computing.</p>
+ 
+<div class="undergraduate-cs-courses">
+    <div class="level100-courses" >
+        <div class="level" id="expandingDiv">
+            <div class="fixed-content">
+              Level 100
+            </div>
+            <div class="expanding-content">
+                <div class="courses-container">
+                    <div class="first-semester">
+                        <b>First semester</b>
+                        <div class="semester-courses">
+                            <div class="course-codes">
+                                <ul class="codes-list">
+                                    <li>UGRC150</li>
+                                    <li>DCIT101</li>
+                                    <li>DCIT103</li>
+                                    <li>MATH121</li>
+                                    <li>MATH123</li>
+                                    <li>STAT111</li>
+                                </ul>
+                            </div>
+                            <div class="course-titles">
+                                <ul>
+                                    <li>Critical Thinking and Practical Reasoning</li>
+                                    <li>Introduction to Computer Science</li>
+                                    <li>Office Productivity Tools</li>
+                                    <li>Algebra and Trigonometry</li>
+                                    <li>Vectors and Geometry</li>
+                                    <li>Introduction to Statistics and Probability I</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-semester">
+                        <b>Second semester</b>
+                        <div class="semester-courses">
+                            <div class="course-codes">
+                                <ul class="codes-list">
+                                    <li>UGRC110</li>
+                                    <li>DCIT102</li>
+                                    <li>DCIT104</li>
+                                    <li>MATH122</li>
+                                    <li>MATH126</li>
+                                    <li>STAT112</li>
+                                </ul>
+                            </div>
+                            <div class="course-titles">
+                                <ul>
+                                    <li>Academic Writing I</li>
+                                    <li>Computer Hardware Fund. and Circuits</li>
+                                    <li>Programming Fundamentals</li>
+                                    <li>Calculus I</li>
+                                    <li>Algebra and Geometry</li>
+                                    <li>Introduction to Statistics and Probability I</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="level200-courses">
+        <div class="level" id="expandingDiv">
+            <div class="fixed-content">
+              Level 200
+            </div>
+            <div class="expanding-content">
+                <div class="courses-container">
+                    <div class="first-semester">
+                        <b>First semester</b>
+                        <div class="semester-courses">
+                            <div class="course-codes">
+                                <ul class="codes-list">
+                                    <li>CBAS210</li>
+                                    <li>MATH223</li>
+                                    <li>DCIT201</li>
+                                    <li>DCIT203</li>
+                                    <li>DCIT205</li>
+                                    <li>DCIT207</li>
+                                </ul>
+                            </div>
+                            <div class="course-titles">
+                              <ul>
+                                 <li>Academic Writing II</li>
+                                 <li>Calculus II</li>
+                                 <li>Programming I</li>
+                                 <li>Digital and Logic Systems Design</li>
+                                 <li>Multi Media and Web Design</li>
+                                 <li>Computer Architecture & Organisation</li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="first-semester">
+                     <b>Second semester</b>
+                     <div class="semester-courses">
+                         <div class="course-codes">
+                             <ul class="codes-list">
+                                 <li>UGRC220</li>
+                                 <li>DCIT202</li>
+                                 <li>DCIT204</li>
+                                 <li>DCIT206</li>
+                                 <li>DCIT208</li>
+                                 <li>DCIT212</li>
+                             </ul>
+                         </div>
+                         <div class="course-titles">
+                             <ul>
+                                 <li>Introduction to African Studies</li>
+                                 <li>Mobile Application Development</li>
+                                 <li>Data Structures & Algorithm I</li>
+                                 <li>Systems Administration</li>
+                                 <li>Software Engineering</li>
+                                 <li>Numerical and Computational Methods</li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="level300-courses">
+     <div class="level" id="expandingDiv">
+         <div class="fixed-content">
+           Level 300
+         </div>
+         <div class="expanding-content">
+             <div class="courses-container">
+                 <div class="first-semester">
+                     <b>First semester</b>
+                     <div class="semester-courses">
+                         <div class="course-codes">
+                             <ul class="codes-list">
+                                 <li>DCIT301</li>
+                                 <li>DCIT303</li>
+                                 <li>DCIT305</li>
+                                 <li>DCIT307</li>
+                                 <li>DCIT311</li>
+                                 <li>DCIT313</li>
+                                 <li>MATH359</li>
+                             </ul>
+                         </div>
+                         <div class="course-titles">
+                             <ul>
+                                 <li>Operating Systems</li>
+                                 <li>Computer Networks</li>
+                                 <li>Database Fundamentals</li>
+                                 <li>Mini-Project</li>
+                                 <li>Machine Learning</li>
+                                 <li>Introduction to Artificial Intelligence</li>
+                                 <li>Discrete Mathematics</li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="first-semester">
+                     <b>Second semester</b>
+                     <div class="semester-courses">
+                         <div class="course-codes">
+                             <ul class="codes-list">
+                                 <li>DCIT306</li>
+                                 <li>DCIT316</li>
+                                 <li>DCIT400</li>
+                                 <li>DCIT401</li>
+                                 <li>DCIT407</li>
+                              </ul>
+                          </div>
+                          <div class="course-titles">
+                              <ul>
+                                  <li>Cloud Computing</li>
+                                  <li>Computational models</li>
+                                  <li>Project</li>
+                                  <li>Social, Legal, Ethical & Prof. Issues</li>
+                                  <li>Image Processing</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="level400-courses">
+      <div class="level" id="expandingDiv">
+          <div class="fixed-content">
+            Level 400
+          </div>
+          <div class="expanding-content">
+              <div class="courses-container">
+                  <div class="first-semester">
+                      <b>First semester</b>
+                      <div class="semester-courses">
+                          <div class="course-codes">
+                              <ul class="codes-list">
+                                  <li>DCIT403</li>
+                                  <li>DCIT405</li>
+                                  <li>DCIT411</li>
+                                  <li>DCIT417</li>
+                                  <li>DCIT423</li>
+                              </ul>
+                          </div>
+                          <div class="course-titles">
+                              <ul>
+                                 <li>Designing Intelligent Agents</li>
+                                 <li>Statistical Models and Methods</li>
+                                 <li>Bioinformatics</li>
+                                 <li>Network Performance Analysis</li>
+                                 <li>Network Servers and Infrastructure</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="first-semester">
+                      <b>Second semester</b>
+                      <div class="semester-courses">
+                          <div class="course-codes">
+                              <ul class="codes-list">
+                                  <li>DCIT400</li>
+                                  <li>DCIT402</li>
+                                  <li>DCIT404</li>
+                                  <li>DCIT406</li>
+                                  <li>DCIT408</li>
+                                  <li>DCIT412</li>
+                                  <li>DCIT418</li>
+                              </ul>
+                          </div>
+                          <div class="course-titles">
+                              <ul> 
+                                  <li>Project</li>
+                                  <li>Management Principles in Computing</li>
+                                  <li>Advanced Databases</li>
+                                  <li>Advanced Computer Networks</li>
+                                  <li>Compilers</li>
+                                  <li>Computer Vision</li>
+                                  <li>Systems and Network Security</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>       
    </body>
 
 
