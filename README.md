@@ -5,7 +5,7 @@ Welcome to the repository for the Department of Computer Science website at the 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
--[Screenshots](#screenshots)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
