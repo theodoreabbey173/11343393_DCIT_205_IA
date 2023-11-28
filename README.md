@@ -32,6 +32,7 @@ The Department of Computer Science website serves as a central hub for students,
 ## Screenshots
 Below are the screenshots of my website.
 ![Alt Text](PICS/screen1.png)
+![Alt Text](PICS/screen19.png)
 ![Alt Text](PICS/screen3.png)
 ![Alt Text](PICS/screen4.png)
 ![Alt Text](PICS/screen5.png)
