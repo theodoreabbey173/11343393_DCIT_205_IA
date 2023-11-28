@@ -50,6 +50,5 @@ We welcome contributions from the community! If you find a bug, have a feature r
 
 ## License
 
- `<Abbey Theodore Gyaqueh>` and `<theodoreabbey173@gmail.com>` 
-
+ Abbey Theodore Gyaqueh 
 
