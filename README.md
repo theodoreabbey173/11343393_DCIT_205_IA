@@ -31,24 +31,24 @@ The Department of Computer Science website serves as a central hub for students,
 
 ## Screenshots
 Below are the screenshots of my website.
-![Alt Text](<img width="935" alt="screen1" src="https://github.com/theodoreabbey173/11343393_DCIT_205_IA/assets/133321014/43d652cf-ac65-4630-bc68-3f3215c2d336">)
-![Alt Text](<img width="935" alt="screen2" src="https://github.com/theodoreabbey173/11343393_DCIT_205_IA/assets/133321014/286c4501-7797-4ddf-b0aa-d884ae4cfedd">)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
-![Alt Text](relative/path/to/image.png)
+![Alt Text](PICS/screen1.png)
+![Alt Text](PICS/screen3.png)
+![Alt Text](PICS/screen4.png)
+![Alt Text](PICS/screen5.png)
+![Alt Text](PICS/screen6.png)
+![Alt Text](PICS/screen7.png)
+![Alt Text](PICS/screen8.png)
+![Alt Text](PICS/screen9.png)
+![Alt Text](PICS/screen10.png)
+![Alt Text](PICS/screen11.png)
+![Alt Text](PICS/screen12.png)
+![Alt Text](PICS/screen13.png)
+![Alt Text](PICS/screen14.png)
+![Alt Text](PICS/screen15.png)
+![Alt Text](PICS/screen16.png)
+![Alt Text](PICS/screen117.png)
+![Alt Text](PICS/screen18.png)
+
 
 
 ## Installation
